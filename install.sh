@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Set the terminal profile
 mv /etc/profile /etc/.originalprofile
 cp ~/dotfiles/profile /etc/profile
