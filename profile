@@ -27,9 +27,10 @@ alias dev="cd ~/Documents/Development"
 
 # Command aliases
 alias ll="ls -al"
-alias ..="cd ../.."
-alias ...="cd ../../.."
-alias ....="cd ../../../.."
+alias ..="cd .."
+alias ..2="cd ../.."
+alias ..3="cd ../../.."
+alias ..4="cd ../../../.."
 alias grep="grep -i --color=auto"
 
 mcd(){
