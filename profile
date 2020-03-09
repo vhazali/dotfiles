@@ -30,6 +30,7 @@ alias ll="ls -al"
 alias ..="cd ../.."
 alias ...="cd ../../.."
 alias ....="cd ../../../.."
+alias grep="grep -i --color=auto"
 
 # Go paths
 # export GOPATH=/Users/Vic/Documents/Development/go
