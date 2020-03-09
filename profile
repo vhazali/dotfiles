@@ -32,6 +32,11 @@ alias ...="cd ../../.."
 alias ....="cd ../../../.."
 alias grep="grep -i --color=auto"
 
+mcd(){
+    mkdir -p -- "$1" &&
+    cd -P -- "$1"
+}
+
 # Go paths
 # export GOPATH=/Users/Vic/Documents/Development/go
 # export PATH="/usr/local/sbin:$PATH:/usr/local/go/bin:$GOPATH/bin"
