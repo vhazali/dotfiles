@@ -28,3 +28,7 @@ export GO111MODULE=auto  # enable this to use the Go Modules. on will force usag
 
 # For GPG to work
 export GPG_TTY=$(tty)
+
+# For vim locale issue
+export LC_ALL=en_US.UTF-8
+
