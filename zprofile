@@ -32,6 +32,9 @@ export GO111MODULE=auto  # enable this to use the Go Modules. on will force usag
 
 # For GPG to work
 export GPG_TTY=$(tty)
+# This is to trigger passphrase prompt so that the gpg key is unlocked.
+# This is required for sourcetree to sign commits since it cannot prompt user to unlock the key
+alias gpgpass="echo 'hello' | gpg --clearsign"
 
 # For vim locale issue
 export LC_ALL=en_US.UTF-8
