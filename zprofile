@@ -15,6 +15,7 @@ alias ..2="cd ../.."
 alias ..3="cd ../../.."
 alias ..4="cd ../../../.."
 alias grep="grep -i --color=auto"
+alias clearr="clear && fc -e : -1"
 
 mcd(){
     mkdir -p -- "$1" &&
