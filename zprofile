@@ -39,3 +39,5 @@ alias gpgpass="echo 'hello' | gpg --clearsign"
 # For vim locale issue
 export LC_ALL=en_US.UTF-8
 
+# Sourcetree setup
+ssh-add -K ~/.ssh/vhazali-GitHub
