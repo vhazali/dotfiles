@@ -16,6 +16,7 @@ alias ..3="cd ../../.."
 alias ..4="cd ../../../.."
 alias grep="grep -i --color=auto"
 alias clearr="clear && fc -e : -1"
+
 weather() {
 	curl https://wttr.in/"$1"
 }
