@@ -29,6 +29,7 @@ mcd(){
 # Go setup
 # export GOPATH=$HOME/go  # enable and modify this if go isn't installed in home dir
 # export PATH=$PATH:$(go env GOPATH)/bin  # enable and modify this to run go anywhere
+export GOPATH=$(go env GOPATH)
 export GO111MODULE=auto  # enable this to use the Go Modules. on will force usage of Go Modules
 
 # For GPG to work
