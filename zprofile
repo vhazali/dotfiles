@@ -41,5 +41,5 @@ alias gpgpass="echo 'hello' | gpg --clearsign"
 # For vim locale issue
 export LC_ALL=en_US.UTF-8
 
-# Sourcetree setup
-ssh-add -K ~/.ssh/vhazali-GitHub
+# Sourcetree setup. This is only needed if SSH key was generated manually.
+# ssh-add -K ~/.ssh/vhazali-GitHub
